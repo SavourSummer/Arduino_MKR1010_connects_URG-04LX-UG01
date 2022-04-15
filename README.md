@@ -14,8 +14,10 @@ urgacm can receive complete packet form URG-04LX-UG01,but it sends a charater fo
    Pay attention to，it is a client in urgacm but server in urgacmAP and urgacmAP1.
 ## How to use
 ### First
-   The +5V pin of Arduino MKR 1010 should connect +5 sourse , and the GND pin connect GND. Just do this and you should premise the voltage of +5V pin is 5V at least when MKR is connecting URG-04LX-UG01,otherwise it can't connect WiFi or receive data of URG.
+   The +5V pin of Arduino MKR 1010 should connect +5 sourse , and the GND pin connect GND. Just do this and you should premise the voltage of +5V pin is 5V at least when MKR is connecting URG-04LX-UG01,otherwise it can't connect WiFi or receive data of URG. 
+      ![170042574f835dfae6c6e260403b7a5](https://user-images.githubusercontent.com/76558384/163567429-cf72a55b-7517-4054-92b4-cf4f0116438e.jpg)
+
 ### Second
    Upload example to MKR.If MKR is USBhost,you should click Reset button twice then the yellow LED of MKR flashes . In this time ,you can upload code when set correct port.
 ### Finally
-   Set correct WiFi ssid and pass ,sure ,sever need port.
+   Set correct WiFi ssid and pass ,sure ,server need port.
